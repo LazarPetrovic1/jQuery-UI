@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ready_Kali_Hunter?">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- https://developers.google.com/speed/libraries/#jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet"> <!-- Charm font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!-- Raleway font -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> <!-- Oxygen font -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> <!-- Courgette font -->
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet"> <!-- Marck Script font -->
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet"> <!-- IM FELL English font -->
+    <link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet"> <!-- Sail font -->
+    <!-- https://developers.google.com/speed/libraries/#jquery -->
+    <link rel="stylesheet" href="jquery-ui.min.css"> <!-- JQUERY UI CSS -->
+    <script src="jquery-ui.min.js" charset="utf-8"></script> <!-- JQUERY UI JS -->
+    <title>Dragger</title>
+  </head>
+  <body>
+    <header>
+      <h1>Some random title</h1>
+    </header>
+    <br>
+    <br><br><br>
+    <div id="tabmaker"> <!-- This will be initiated as .tabs() in jQuery -->
+      <ul>
+        <li><a href="#tab1">Tab 1</a></li>
+        <li><a href="#tab2">Tab 2</a></li>
+        <li><a href="#tab3">Tab 3</a></li>
+        <li><a href="#tab4">Tab 4</a></li>
+        <li><a href="#tab5">Tab 5</a></li>
+      </ul>
+      <div id="tab1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="tab2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="tab3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="tab4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="tab5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <div id="accordion"> <!-- This will be initiated as .accordion() in jQuery -->
+      <h3>Lorem</h3>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        sdhfkjsdfjksdjkhfjsdkfhsdjfhsdjkfsdjfksdjfkjsdfjksdhfkjsdhfsdjhfkjsdfhksdhksdhjfh.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <h3>Ipsum</h3>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <h3>Dolor</h3>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <h3>Sit</h3>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <div id="dialogBox" title="Warning"> <!-- This will be initiated as .dialog() in jQuery -->
+      <p>The action you are trying to execute will cause irreparable damage to your computer.<br>Are you sure you wish to proceed?</p>
+    </div> <a href="javascript:void(0)" id="dialogExec" title="Dialog">Hello</a><br><br>
+    <br>
+    <form action="#" id="coolStuff">
+      Things: <br><br>
+      <select name="someLines" id="lines">
+        <option>Alo be!</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
+        <option>Dropdown 5</option>
+      </select><br><br>
+      Date: <br><br>
+      <input type="text" name="date" id="date"><br><br><br>
+      <br><br><br>
+      <br><br><br>
+      <div id="crossContainer">
+        <img src="imgs/delete-images.jpg" id="cross" id="weirdBoy" alt="Red deletion cross" height="250px" width="250px">
+      </div>
+      <img src="img1.png" class="kill" alt="Lady" height="200px" width="200px" id="img1">
+      <img src="img2.png" class="kill" alt="Wiki" height="200px" width="200px" id="img2">
+      <img src="img3.jpg" class="kill" alt="Small shop" height="200px" width="200px" id="img3">
+      <img src="img4.png" class="kill" alt="Bunny" height="210px" width="210px" id="img4">
+      <img src="img5.gif" class="kill" alt="Some weird gif bs" height="200px" width="200px" id="img5">
+      <img src="img6.png" class="kill" alt="Academia" height="200px" width="200px" id="img6">
+    </form>
+    <br><br><br>
+    <p id="try1">This is draggable.</p>
+      <br><br>
+    <p id="try2">This disappears on doubleclick.</p>
+      <br><br>
+    <p id="try3">This is changed on (single) click.<p>
+      <br><br><br><br>
+      <button type="button" id="lifebringer">Restore the second paragraph!</button>
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+
+      $("#tabmaker").tabs({
+        event: "click",
+        show: "fadeIn",
+        hide: "fadeOut",
+        active: 2,
+        collapsible: true,
+        heightStyle: "content"
+      });
+
+      $("#accordion").accordion({
+        animate: 2000,
+        active: 3,
+        collapsible: true,
+        event: "click",
+        heightStyle: "content"
+      });
+
+      $("#coolStuff").draggable();
+      $("#img1").draggable();
+      $("#img2").draggable();
+      $("#img3").draggable();
+      $("#img4").draggable();
+      $("#img5").draggable();
+      $("#img6").draggable();
+
+      $("#crossContainer").droppable({
+        activeClass: "highlight",
+        // hoverClass: "tobekilled",
+        drop: function(event, ui) {
+          ui.helper.hide("fade");
+          alert("Utepa me! Alo be!!!");
+        },
+        accept: ".kill",
+        disabled: false,
+
+      });
+    });
+    $("#try1").draggable();
+    $("#try1").mousedown(function() {
+      $(this).css("cursor", "grabbing");
+    });
+    $("#try1").mouseup(function() {
+      $(this).css("cursor", "grab");
+    });
+    $("#try2").dblclick(function() {
+      $(this).hide();
+      alert("Restore button!");
+    });
+    $("#try3").click(function() {
+      $(this).text("Hello, world!");
+    });
+    $("#lifebringer").click(function() {
+      $("#try2").show();
+    });
+    $("#dialogBox").dialog({
+      draggable: true,
+      resizable: true,
+      height: 300,
+      width: 300,
+      modal: true,
+      position: {
+        my: "center top",
+        at: "center bottom",
+        of: "#dialogExec"
+      },
+      show: 1000,
+      hide: 1000,
+      autoShow: true,
+      buttons: {
+        "OK": function() {
+          $("#dialogBox").html("Okay");
+          $(this).dialog("close");
+        },
+        "CANCEL": function() {
+          $("#dialogBox").html("BULL-SH!T");
+          $(this).dialog("close");
+        }
+      }
+    });
+    $("#crossContainer").draggable();
+
+    $("#dialogExec").click(function() {
+      $("#dialogBox").dialog("open");
+    });
+    $("*").tooltip();
+    $("#date").datepicker({
+      changeMonth: true,
+      changeYear: true,
+      dateFormat: "dd MM, yy",
+      numberOfMonths: 1,
+      maxDate: 700000,
+      minDate: -700000
+    });
+
+    $("#lines").selectmenu({
+      width: 150
+    });
+
+    </script> <!-- END OF JQUERY CODE -->
+  </body>
+</html>
